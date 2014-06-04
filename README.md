@@ -9,9 +9,20 @@ Rutherford is named after (Ernest Rutherford)[http://en.wikipedia.org/wiki/Ernes
 
 ## Pre-requisites
 
+Must have python 2.7 with future print()
+Must have pyrax installed, configured via ~/.raxpub
+
 ## How to use
 
-## Examples
+Add a mapping in rutherford.py:
+mapping.append(Mapping('servername-prefix', 'loadbalancer-name', port))
+
+
+```python rutherford.py```
+
+## To Do
+- Add more node settings to the mapping class
+- Move mappings to a file
 
 ## License
 
